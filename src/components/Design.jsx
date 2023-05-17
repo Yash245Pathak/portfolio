@@ -4,7 +4,7 @@ import { Star } from 'react-feather'
 
 function Design() {
     return (
-        <div className="h-auto text-white mt-10">
+        <div className="h-auto text-white mt-10" data-aos="fade-up" data-aos-duration="2000">
             <h1 className="text-[60px] md:text-[80px] text-center text-transparent bg-clip-text bg-gradient-to-r from-white to-bg[#131313]">DESIGN</h1>
             <div className="flex flex-col md:flex-row gap-x-8 gap-y-10 justify-center items-center my-10">
                 <div className="border border-white w-[15rem] h-[15rem] bg-[#323232] flex flex-col justify-center gap-y-3 px-3 hover:bg-[#565656] hover:scale-110 ease-in-out duration-700">

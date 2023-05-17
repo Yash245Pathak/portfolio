@@ -7,7 +7,7 @@ import img6 from '../assets/img6.png'
 
 function Work() {
     return (
-        <div className="h-[80vh] text-white mt-16">
+        <div className="h-[80vh] text-white mt-16" data-aos="fade-down" data-aos-duration="2000">
             <h1 className="text-[60px] md:text-[80px] text-center text-transparent bg-clip-text bg-gradient-to-r from-white to-bg[#131313]">WORK</h1>
             <div className='mt-6 relative p-6 overflow-hidden h-[80vh]'>
                 <div className='flex gap-x-2 absolute left-0 animateImg'>
